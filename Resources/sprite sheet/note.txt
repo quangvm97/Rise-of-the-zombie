@@ -1,0 +1,2 @@
+female_idle: dead 1 - 9, idle: 1-11
+female_walk: dead 1 - 11, walk: 1 - 9
