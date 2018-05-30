@@ -28,7 +28,7 @@ void GameController::init()
 {
 	//set time appear
 	curTimeAppear = listLevel[curLevel - 1]->timeAppear;
-	
+
 	//create 9 zombie and add them to list
 	for (int i = 0; i < NUM_ZOMBIE; i++)
 	{
@@ -36,13 +36,14 @@ void GameController::init()
 		newZombie->setPos(listPoint.at(i).x, listPoint.at(i).y);
 		newZombie->retain();
 		listZombie.pushBack(newZombie);
-	}	
+	}
 }
 
 void GameController::reset()
 {
 	numLife = 3;
 	curLevel = 1;
+	curScore = 0;
 }
 
 void GameController::increaseDifficult()
@@ -61,16 +62,16 @@ void GameController::initLevel()
 	int numLevel, num, goal, proba1, proba2, proba3;
 	float timeAppear;
 	FILE *pFile;
-	pFile = fopen("info level.txt","r");
+	pFile = fopen("info level.txt", "r");
 	//read number level
 	fscanf(pFile, "NUM %d", &numLevel);
 	for (int i = 0; i < numLevel; i++)
 	{
 		//read detail of each level
 		fscanf(pFile, "%d %f %d %d %d", &goal, &timeAppear, &proba1, &proba2, &proba3);
-		listLevel.push_back(new Level(i+1, goal, timeAppear, proba1, proba2, proba3));
+		listLevel.push_back(new Level(i + 1, goal, timeAppear, proba1, proba2, proba3));
 	}
-	
+
 }
 
 
@@ -82,7 +83,7 @@ void GameController::randomZombie()
 	typeRandom = RandomHelper::random_int(1, 10);
 	if (typeRandom <= level->arrProbability[0])
 		random1Zombie();
-	else if(typeRandom <= level->arrProbability[1] + level->arrProbability[0])
+	else if (typeRandom <= level->arrProbability[1] + level->arrProbability[0])
 		random2Zombie();
 	else
 		random3Zombie();
@@ -136,7 +137,7 @@ void GameController::levelUp()
 }
 
 float GameController::getTimeAppear()
-{ 
+{
 	return curTimeAppear;
 }
 
@@ -149,7 +150,7 @@ void GameController::lossLife()
 		//Game Over
 		//reset();
 		auto scene = GameOverScene::createScene();
-		Director::getInstance()->replaceScene(TransitionFade::create(1,scene));
+		Director::getInstance()->replaceScene(TransitionFade::create(1, scene));
 	}
 }
 
@@ -165,7 +166,7 @@ void GameController::initListPosition()
 	listPoint.push_back(Point(Vec2(177, 82)));
 	listPoint.push_back(Point(Vec2(381, 343)));
 	listPoint.push_back(Point(Vec2(272, 241)));
-	
+
 }
 
 
