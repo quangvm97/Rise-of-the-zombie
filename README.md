@@ -20,9 +20,11 @@ Game có nhiều level, người chơi phải đập được số zombie bằng
 
 Nếu người chơi để zombie thoát thì sẽ bị mất một mạng, khi hết mạng sẽ phải chơi lại từ đầu
 
-Độ khó sẽ tăng dần theo thời gian mỗi level và tăng dần theo các level, càng về sau tần suất xuất hiện zombie sẽ ngắn lại và số lượng zombie xuất hiện cùng lúc sẽ tăng lên yêu cầu người chơi phải nhanh tay hơn
+Độ khó sẽ tăng dần theo thời gian mỗi level và tăng dần theo các level, càng về sau tần suất xuất hiện zombie sẽ ngắn lại và số lượng zombie xuất hiện cùng lúc sẽ tăng lên yêu cầu người chơi phải nhanh tay hơn, hiện tại game đang có 3 level
 
-![screenshot 110](https://user-images.githubusercontent.com/37453681/40757724-17d973f2-64b4-11e8-92be-f1d649e7a404.png)
+![screenshot 111](https://user-images.githubusercontent.com/37453681/40757876-cdaefd32-64b4-11e8-931f-adb3931fbe4c.png)
+
+
 
 
 
