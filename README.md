@@ -2,7 +2,7 @@
 ## Tác giả: Vũ Minh Quang
 ## Thời gian hoàn thiện: 1 tháng
 ## Mô tả trò chơi
-### 1.Hướng dẫn tải game chơi trên máy:
+### 1. Hướng dẫn tải game chơi trên máy:
 Link tải: https://drive.google.com/file/d/1K7u_aGLCzeHVvnpyXVYjsTIvhB4JUwvH/view?usp=sharing
 
 Hướng dẫn chạy game: Sau khi download -> Giải nén -> chạy file win32/Rise of the Zombie.exe 
@@ -11,7 +11,7 @@ Game được viết trên nền tảng cocos2dx, vì vậy trong project có nh
 
 ![capture](https://user-images.githubusercontent.com/37453681/40756429-c8e3cece-64ad-11e8-839c-7e41429d53a1.PNG)
 
-### 2.Luật chơi
+### 2. Luật chơi
 Người chơi có 3 mạng, tương đương với 3 trái tim bên phải màn hình
 
 Nhiệm vụ của người chơi là phải tiêu diệt những con zombie xuất hiện trên màn hình bằng cách click chuột chính xác vào chúng
@@ -24,6 +24,14 @@ Nếu người chơi để zombie thoát thì sẽ bị mất một mạng, khi 
 
 ![screenshot 111](https://user-images.githubusercontent.com/37453681/40757876-cdaefd32-64b4-11e8-931f-adb3931fbe4c.png)
 
+### 3. Hướng phát triển
+- Thêm âm thanh sống động
+- Thêm điểm kỷ lục của người chơi
+- Làm thêm nhiều level, gia tăng độ khó của game
+- Tạo thêm những loại zombie khó hơn như đập nhiều lần mới chết
+- Thêm vật thưởng cho người chơi xuất hiện: thêm thời gian, ngưng đọng thời gian, thêm mạng cho người chơi
+
+## Lời kết: Tuy đã cố gắng hoàn thành game Raise of the Zombie nhưng chắc chắn trò chơi còn còn nhiều thiếu sót nên em mong thầy và các bạn góp ý để trò chơi trở nên hoàn thiện hơn
 
 
 
