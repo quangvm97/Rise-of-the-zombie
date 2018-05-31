@@ -31,9 +31,10 @@ Nếu người chơi để zombie thoát thì sẽ bị mất một mạng, khi 
 - Tạo thêm những loại zombie khó hơn như đập nhiều lần mới chết
 - Thêm vật thưởng cho người chơi xuất hiện: thêm thời gian, ngưng đọng thời gian, thêm mạng cho người chơi
 
-### Lời kết: Tuy đã cố gắng hoàn thành game Raise of the Zombie nhưng chắc chắn trò chơi còn còn nhiều thiếu sót nên em mong thầy và các bạn có thể tải về chơi thử, từ đó đưa ra cảm nhận của bạn thân, nhận xét và góp ý để trò chơi trở nên hoàn thiện hơn. Em xin cảm ơn
+### Lời kết: 
+Tuy đã cố gắng hoàn thành game Rise of the Zombie nhưng chắc chắn trò chơi còn nhiều thiếu sót nên em mong thầy và các bạn có thể tải về chơi thử, từ đó đưa ra cảm nhận của bạn thân, nhận xét và góp ý để trò chơi trở nên hoàn thiện hơn. Xin chân thành cảm ơn
 
-### Trân trọng!
+Trân trọng!
 
 
 
